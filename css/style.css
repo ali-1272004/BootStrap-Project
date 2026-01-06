@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+}
+body {
+
+}
+
+/* start nav */
+.navbar{
+    height: 90px;
+}
+.nav-item .nav-link{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000 !important;
+    margin-left: 15px;
+}
+.nav-item .nav-link:hover{
+    color: #00aeef !important;
+    transition: 0.3s;
+}
+.booking-btn{
+    padding: 10px 20px;
+    border: 2px solid #00aeef;
+    border-radius: 2px !important;
+    background-color: #00aeef;
+    color: #fff;
+    font-size: 18px;
+}
+.booking-btn:hover{
+    background-color: #ffffff;
+    border-color: #0086c1;
+    color: #0086c1;
+}
+/* end nab */
+
+/* start header */
+header{
+    height: 650px;
+
+}
+header .hero{
+    background: url('https://preview.colorlib.com/theme/dento/img/bg-img/3.jpg') no-repeat center center/cover;
+    position: relative;
+    height: 100%;
+}
+header .hero-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(41, 61, 72, 0.6), rgba(102, 137, 167, 0.6));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+.hero-content{
+    width: 70%;
+}
+.hero-content h1{
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.hero-content p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.hero-links .getStarted-btn, .hero-links .contact-btn{
+    font-weight: 500;
+    text-decoration: none;
+    padding: 12px 30px;
+    border: 2px solid #00aeef;
+    border-radius: 2px !important;
+    background-color: #00aeef;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+.hero-links .getStarted-btn:hover{
+    background-color: #ffffff00;
+    border-color: #0086c1;
+    color: #0086c1;
+}
+.hero-links .contact-btn{
+    background-color: transparent ;
+    color: #00aeef;
+}   
+/* end header */
